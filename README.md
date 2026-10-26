@@ -100,7 +100,8 @@ tests/                     # tests unitaires et d’intégration
 - **Lien Streamlabs 2026** : le seed met celui d’octobre 2025 (Réglages → Événement et cagnotte).
 - **Dates de l’édition**, montant et objectif de la cagnotte.
 - **66 % déductible** : mention reprise de la maquette (bandeau, cagnotte, « Choisis ta classe », boutique). À confirmer avec la Fédération Leucémie Espoir (reçu fiscal émis via Streamlabs ?) ou à retirer.
-- **Catalogue** : les 8 produits sont ceux de la maquette, avec des prix et stocks d’exemple. Mettre les vrais, et des photos.
+- **Catalogue** : les 8 produits sont ceux de la maquette, avec des prix d’exemple. Mettre les vrais, et des photos. Le seed les crée **sans stock**, c’est-à-dire en illimité, ce qui correspond à une vente en précommande : les articles sont produits après la campagne. Ne renseigner « Ajouter au stock » que pour un article réellement en quantité finie (invendus d’une édition, série limitée) — sinon la boutique afficherait « épuisé » à tort.
+- **Délai de livraison** (Boutique → livraison) : « sous 5 à 7 jours » est la valeur de départ et ne tient pas pour une précommande. Annoncer une échéance réaliste, et le dire aussi dans les CGV et sur la fiche produit.
 - **E-mail de contact** (Infos de l’asso) et e-mail presse.
 - **Mentions légales, CGV, confidentialité** : les champs entre crochets (siège, RNA, président·e, hébergeur, médiateur, régime de TVA) et une relecture.
 - L’article « Nouveau site, nouvelle boutique » est en brouillon : à publier le jour J.

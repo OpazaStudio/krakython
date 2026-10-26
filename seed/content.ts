@@ -509,14 +509,14 @@ export const ACTUALITES = [
 
 // Catalogue d'exemple repris des maquettes : prix et stocks À REMPLACER par les vrais.
 export const PRODUITS = [
-  { nom: 'T-shirt Kraken', categorie: 'textile', prix: 20, sousTitre: 'Unisexe · bleu Krakython · S à XXL', badge: 'Édition 2026', illustration: 'tshirt', fond: 'bleu', enAvant: true, tailles: [['S', 10], ['M', 15], ['L', 15], ['XL', 10], ['XXL', 5]] },
-  { nom: 'Sweat à capuche', categorie: 'textile', prix: 40, sousTitre: 'Unisexe · rose manette · S à XXL', illustration: 'sweat', fond: 'rose', enAvant: true, tailles: [['S', 5], ['M', 8], ['L', 8], ['XL', 5], ['XXL', 3]] },
-  { nom: 'Casquette brodée', categorie: 'textile', prix: 18, sousTitre: 'Taille unique · réglable', illustration: 'casquette', fond: 'bleu', stock: 20 },
-  { nom: 'Mug Krakython', categorie: 'accessoires', prix: 12, sousTitre: 'Céramique · pour les nuits de stream', illustration: 'mug', fond: 'rose', enAvant: true, stock: 30 },
-  { nom: 'Tapis de souris XL', categorie: 'accessoires', prix: 18, sousTitre: 'Pour viser juste pendant le marathon', illustration: 'tapis', fond: 'bleu', stock: 15 },
-  { nom: 'Tote bag', categorie: 'accessoires', prix: 10, sousTitre: 'Pour le stade, le marché, les courses', illustration: 'tote', fond: 'rose', stock: 25 },
+  { nom: 'T-shirt Kraken', categorie: 'textile', prix: 20, sousTitre: 'Unisexe · bleu Krakython · S à XXL', badge: 'Édition 2026', illustration: 'tshirt', fond: 'bleu', enAvant: true, tailles: [['S', null], ['M', null], ['L', null], ['XL', null], ['XXL', null]] },
+  { nom: 'Sweat à capuche', categorie: 'textile', prix: 40, sousTitre: 'Unisexe · rose manette · S à XXL', illustration: 'sweat', fond: 'rose', enAvant: true, tailles: [['S', null], ['M', null], ['L', null], ['XL', null], ['XXL', null]] },
+  { nom: 'Casquette brodée', categorie: 'textile', prix: 18, sousTitre: 'Taille unique · réglable', illustration: 'casquette', fond: 'bleu', stock: null },
+  { nom: 'Mug Krakython', categorie: 'accessoires', prix: 12, sousTitre: 'Céramique · pour les nuits de stream', illustration: 'mug', fond: 'rose', enAvant: true, stock: null },
+  { nom: 'Tapis de souris XL', categorie: 'accessoires', prix: 18, sousTitre: 'Pour viser juste pendant le marathon', illustration: 'tapis', fond: 'bleu', stock: null },
+  { nom: 'Tote bag', categorie: 'accessoires', prix: 10, sousTitre: 'Pour le stade, le marché, les courses', illustration: 'tote', fond: 'rose', stock: null },
   { nom: 'Pack de stickers', categorie: 'goodies', prix: 5, sousTitre: 'Manette, PC, gourde : tout y passe', badge: 'Pack x3', illustration: 'stickers', fond: 'bleu', enAvant: true, stock: null },
-  { nom: 'Porte-clés badge', categorie: 'goodies', prix: 5, sousTitre: 'Le Kraken partout avec toi', illustration: 'porte-cles', fond: 'rose', stock: 40 },
+  { nom: 'Porte-clés badge', categorie: 'goodies', prix: 5, sousTitre: 'Le Kraken partout avec toi', illustration: 'porte-cles', fond: 'rose', stock: null },
 ]
 
 export const PAGE_BOUTIQUE = {
