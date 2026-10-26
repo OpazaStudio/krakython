@@ -1,0 +1,35 @@
+// Habillage de l'admin aux couleurs du Krakython (bleu et rose du logo).
+:root {
+  --theme-success-500: #197dc7;
+}
+.nav__link--active,
+.nav__link:hover {
+  color: #f23852 !important;
+}
+
+.a-commander {
+  margin-bottom: calc(var(--base) * 2);
+  &__titre { margin: 0 0 0.25rem; font-size: 1.5rem; }
+  &__note { margin: 0 0 var(--base); color: var(--theme-elevation-600); font-size: 0.875rem; }
+  &__tuiles { display: grid; gap: var(--base); grid-template-columns: repeat(4, minmax(0, 1fr)); }
+  &__tuile {
+    display: flex;
+    flex-direction: column;
+    padding: var(--base);
+    background: var(--theme-elevation-50);
+    border: 1px solid var(--theme-elevation-100);
+    border-radius: 8px;
+    text-decoration: none;
+    color: inherit;
+  }
+  &__tuile:hover { border-color: #197dc7; }
+  &__l { font-size: 0.8125rem; color: var(--theme-elevation-600); }
+  &__v { margin-top: 0.25rem; font-size: 2.25rem; font-weight: 700; line-height: 1; color: #f23852; }
+  &__s { margin-top: 0.5rem; font-size: 0.8125rem; color: var(--theme-elevation-700); }
+  &__liste { margin: var(--base) 0 0; padding: 0; list-style: none; border: 1px solid var(--theme-elevation-100); border-radius: 8px; }
+  &__liste li { display: flex; justify-content: space-between; gap: var(--base); padding: 0.6rem var(--base); border-bottom: 1px solid var(--theme-elevation-100); font-size: 0.875rem; }
+  &__liste li:last-child { border-bottom: 0; }
+  @media (max-width: 900px) {
+    &__tuiles { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  }
+}

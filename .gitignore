@@ -1,0 +1,16 @@
+node_modules
+.next
+.vercel
+.yarn/
+.env*
+!.env.example
+next-env.d.ts
+tsconfig.tsbuildinfo
+.DS_Store
+
+# Fichiers envoyés via l'admin en local (en prod : Vercel Blob)
+public/media/
+
+# Tests
+/test-results/
+/playwright-report/
